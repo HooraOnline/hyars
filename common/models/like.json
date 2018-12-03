@@ -1,0 +1,28 @@
+{
+  "name": "Like",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "entityId": {
+      "type": "string"
+    },
+    "memberId": {
+      "type": "string"
+    },
+    "modelName": {
+      "type": "string"
+    },
+    "like": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

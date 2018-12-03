@@ -1,0 +1,36 @@
+{
+  "name": "Comment",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "modelName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "writerImage": {
+      "type": "string"
+    },
+    "writerId": {
+      "type": "string"
+    },
+    "writerName": {
+      "type": "string"
+    },
+    "entityId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "News",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "comments": {
+      "type": "hasMany",
+      "model": "Comment",
+      "foreignKey": "entityId"
+    },
+    "liks": {
+      "type": "hasMany",
+      "model": "Like",
+      "foreignKey": "entityId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "DisignInfo",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "group": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "album",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "image": {
+      "type": "string"
+    },
+    "tileName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "group": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
