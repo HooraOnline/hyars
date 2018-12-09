@@ -1,0 +1,28 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mail-center": {
+    "name": "mail-center",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  },
+  "EmailSender": {
+    "name": "EmailSender",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "partiatech1@gmail.com",
+          "pass": "ra@123456"
+        }
+      }
+    ]
+  }
+}
