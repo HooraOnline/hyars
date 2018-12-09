@@ -3,6 +3,22 @@
     "name": "db",
     "connector": "memory"
   },
+  "bamizDS": {
+    "host": "185.88.154.168",
+    "port": 27017,
+    "url": "",
+    "database": "hamrahYarDB",
+    "password": "root",
+    "name": "bamizDS",
+    "user": "root",
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage"
+  },
   "mail-center": {
     "name": "mail-center",
     "localStorage": "",

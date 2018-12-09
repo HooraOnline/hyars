@@ -122,5 +122,19 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Health": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Message": {
+    "dataSource": "EmailSender"
+  },
+  "Email": {
+    "dataSource": "EmailSender"
   }
+
+
 }

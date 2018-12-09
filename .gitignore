@@ -17,3 +17,7 @@
 coverage
 node_modules
 npm-debug.log
+
+/node_modules
+/.history
+/.vscode

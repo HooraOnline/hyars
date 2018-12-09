@@ -230,7 +230,7 @@ module.exports = function (Member) {
             if (err)
                 callback(err)
             else if (res.id) {
-                return Member.findById(res.userId, {include: ['bankCards']},function (err2, member) {
+                return Member.findById(res.userId, {},function (err2, member) {
                     if (err2)
                         callback(err2)
                     else{
