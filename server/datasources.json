@@ -4,7 +4,7 @@
     "connector": "memory"
   },
   "bamizDS": {
-    "host": "185.88.154.168",
+    "host": "localhost",
     "port": 27017,
     "url": "",
     "database": "hamrahYarDB",

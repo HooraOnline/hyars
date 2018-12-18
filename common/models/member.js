@@ -221,10 +221,7 @@ module.exports = function (Member) {
     });
 
     Member.loginMember = function (username, password, callback) {
-        if (!username) {
-            callback(null, "enter username");
-            return;
-        }
+
         Member.login({ username: username, password: password }, function (err, res) {
             console.log(res)
             if (err)
